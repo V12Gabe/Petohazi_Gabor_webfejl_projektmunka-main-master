@@ -1,0 +1,31 @@
+<div class="main_component">
+    <div class="div-flex">
+        <h1>New to the page? Register your account!</h1>
+        <h1>You need to have an account to access the videos.</h1>
+        <form [formGroup]="signUpForm" (ngSubmit)="onSubmit()">
+            <mat-form-field>
+                <mat-label for="email">Email: </mat-label>
+                <input matInput type="text" formControlName="email" />
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label for="password">Password: </mat-label>
+                <input matInput type="password" formControlName="password" />
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label for="rePassword">Confirm password: </mat-label>
+                <input matInput type="password" formControlName="rePassword" />
+            </mat-form-field>
+                <mat-form-field>
+                    <mat-label for="username">Username: </mat-label>
+                    <input matInput type="text" formControlName="username" />
+                </mat-form-field>
+            <div>
+                <span class="buttons">
+                    <button mat-raised-button color="primary" type="submit">Register</button>
+                </span><span class="buttons">
+                    <button mat-raised-button (click)="back()">Back</button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>

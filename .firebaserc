@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "petohazi-gabor-webfejl-projekt": {
+      "hosting": {
+        "petohazi-gabor-webfejl-projektmunka": [
+          "petohazi-gabor-webfejl-projekt"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "petohazi-gabor-webfejl-projekt"
+  }
+}

@@ -1,0 +1,22 @@
+.videos {
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url("/assets/background.jpg");
+    background-repeat: no-repeat;
+}
+
+.slider {
+    width: 700px;
+    height: 93vh;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+
+
+
+
